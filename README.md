@@ -33,10 +33,35 @@ The project is divided into two phases:
 ---
 ## Week-wise Breakdown
 
-- 📁 **[Week 1: Infrastructure & Agent Deployment](Week1-Infrastructure-Agent-Deployment/)**
-- 📁 **[Week 2: Detection Rules & Logic Implementation](Week2-Detection-Rules/)**
-- 📁 **Week 3: Active Response Configuration** *(Planned)*
-- 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping** *(Planned)*
+### 📁 [Week 1: Infrastructure & Agent Deployment](Week1-Infrastructure-Agent-Deployment/)
+**Focus:** SIEM infrastructure setup and endpoint onboarding  
+- Deployed Wazuh Manager (OVA v4.14.1)
+- Installed agents on Ubuntu Server 22.04 and Windows Server 2016
+- Enabled Sysmon for deep telemetry
+- Verified agent heartbeat and log ingestion
+
+---
+
+### 📁 [Week 2: Detection Rules & Logic Implementation](Week2-Detection-Rules/)
+**Focus:** Detection engineering and alert validation  
+- Configured File Integrity Monitoring (FIM)
+- Created custom XML decoders for proprietary logs
+- Implemented custom detection rules
+- Enabled Vulnerability Detector
+- Validated high-severity alert within 5 seconds
+
+---
+
+### 📁 Week 3: Active Response Configuration *(Planned)*
+- Automated response actions
+- Host isolation and remediation scripts
+
+---
+
+### 📁 Week 4: Atomic Red Team Simulation & MITRE Mapping *(Planned)*
+- Adversary emulation using Atomic Red Team
+- MITRE ATT&CK technique mapping
+
   
 
 ---
