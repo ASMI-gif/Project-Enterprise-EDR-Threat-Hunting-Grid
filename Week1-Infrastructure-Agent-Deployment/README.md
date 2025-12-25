@@ -21,8 +21,5 @@
 
 ## 🧪 Commands Used
 
-```bash
-sudo systemctl start wazuh-manager
-sudo systemctl status wazuh-manager
 ---
 ⬅️ **[Back to Main Page](../README.md)**
