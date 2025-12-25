@@ -19,6 +19,12 @@ The project is divided into two phases:
 - Centralized monitoring via Wazuh Dashboard
 
 ---
+## Architecture Diagram
+
+The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle VirtualBox.
+
+![Wazuh Architecture Diagram](Docs/Wazuh_Architecture.png)
+
 
 ## Project Objectives
 - Deploy and validate Wazuh Manager and Agents
