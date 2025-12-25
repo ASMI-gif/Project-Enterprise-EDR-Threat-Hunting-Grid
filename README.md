@@ -41,7 +41,7 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 
 
 - 📁 **Week 1: Infrastructure & Agent Deployment**  
-  👉 [Open Week 1](Week1-Infrastructure-Agent-Deployment)
+  👉 [Open Week 1](./Week1-Infrastructure-Agent-Deployment/README.md)
 **Focus:** SIEM infrastructure setup and endpoint onboarding  
 - Deployed Wazuh Manager (OVA v4.14.1)
 - Installed agents on Ubuntu Server 22.04 and Windows Server 2016
