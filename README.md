@@ -31,11 +31,13 @@ The project is divided into two phases:
 
 
 ---
-## Week-wise Breakdown  
-- 📁 **Week 1:** Infrastructure & Agent Deployment  
-- 📁 **Week 2:** Detection Rules & Logic Implementation  
-- 📁 **Week 3:** Active Response Configuration  
-- 📁 **Week 4:** Atomic Red Team Simulation & MITRE Mapping  
+## Week-wise Breakdown
+
+- 📁 **[Week 1: Infrastructure & Agent Deployment](Week1-Infrastructure-Agent-Deployment/)**
+- 📁 **[Week 2: Detection Rules & Logic Implementation](Week2-Detection-Rules/)**
+- 📁 **Week 3: Active Response Configuration** *(Planned)*
+- 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping** *(Planned)*
+  
 
 ---
 
