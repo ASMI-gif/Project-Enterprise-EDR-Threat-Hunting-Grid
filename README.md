@@ -39,7 +39,7 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 ---
 ## Week-wise Breakdown
 
-### 📁 [Week 1: Infrastructure & Agent Deployment](Week1-Infrastructure-Agent-Deployment/)
+### 📁 [Week 1: Infrastructure & Agent Deployment](Week1_Infrastructure_Agent_Deployment/)
 **Focus:** SIEM infrastructure setup and endpoint onboarding  
 - Deployed Wazuh Manager (OVA v4.14.1)
 - Installed agents on Ubuntu Server 22.04 and Windows Server 2016
@@ -48,7 +48,7 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 
 ---
 
-### 📁 [Week 2: Detection Rules & Logic Implementation](Week2-Detection-Rules/)
+### 📁 [Week 2: Detection Rules & Logic Implementation](Week2_Detection_Rules/)
 **Focus:** Detection engineering and alert validation  
 - Configured File Integrity Monitoring (FIM)
 - Created custom XML decoders for proprietary logs
