@@ -23,7 +23,7 @@ The project is divided into two phases:
 
 The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle VirtualBox.
 
-![Wazuh Architecture Diagram](Docs/Wazuh_Architecture.png)
+![Wazuh Architecture Diagram](Docs/Project_Architecture.png)
 
 
 ## Project Objectives
