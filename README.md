@@ -40,17 +40,21 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 
 ## Week-wise Breakdown
 
+
+
 - 📁 **Week 1: Infrastructure & Agent Deployment**  
-  👉 [Open Week 1](#week-1-infrastructure--agent-deployment)  
+  👉 [Open Week 1](./Week1-Infrastructure-Agent-Deployment/)
 
 - 📁 **Week 2: Detection Rules & Logic Implementation**  
-  👉 [Open Week 2](#week-2-detection-rules--logic-implementation)  
+  👉 [Open Week 2](./Week2-Detection-Rules/)
 
-- 📁 **Week 3: Active Response Configuration *(Planned)***  
-  👉 [Open Week 3](#week-3-active-response-configuration-planned)  
+- 📁 **Week 3: Active Response Configuration**  
+  👉 [Open Week 3](./Week3-Active-Response/)
 
-- 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping *(Planned)***  
-  👉 [Open Week 4](#week-4-atomic-red-team-simulation--mitre-mapping-planned)  
+- 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping**  
+  👉 [Open Week 4](./Week4-Atomic-Red-Team/)
+
+---
 
 ---
 
