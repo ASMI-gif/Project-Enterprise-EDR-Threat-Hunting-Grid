@@ -54,30 +54,6 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 - 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping**  
   👉 [Open Week 4](./Week4-Atomic-Red-Team/)
 
----
-
----
-
-## Week 1: Infrastructure & Agent Deployment
-- Deployed Wazuh Manager (OVA v4.14.1)
-- Installed agents on Ubuntu Server 22.04 and Windows Server 2016
-- Enabled Sysmon for deep telemetry
-- Verified agent heartbeat and log ingestion
-
-**Additional Notes:**
-- Configured log forwarding to SIEM
-- Tested alert generation for sample events
-
-### Screenshots
-![Wazuh Dashboard](assets/wazuh-dashboard.png)
-![Agent Installation](assets/agent-installation.png)
-
-### Commands Used
-```bash
-sudo systemctl start wazuh-manager
-sudo systemctl status wazuh-agent
-
-
 
 ---
 
