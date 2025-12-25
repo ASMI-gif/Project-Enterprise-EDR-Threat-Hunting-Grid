@@ -77,3 +77,16 @@ The project is divided into two phases:
 ## Conclusion
 This project provides hands-on experience in SIEM deployment, endpoint telemetry, log parsing, and detection engineering, aligned with real SOC operations.
 
+## Review & Gate Check Validation
+
+| Requirement | Status |
+|------------|--------|
+| Wazuh Manager deployed (v4.14.1) | ✅ |
+| Ubuntu Server 22.04 agent active | ✅ |
+| Windows Server 2016 agent active | ✅ |
+| Sysmon installed and logging | ✅ |
+| All agents reporting heartbeat | ✅ |
+| FIM alert generated < 5 seconds | ✅ |
+| Custom decoders & rules working | ✅ |
+| Screenshots embedded in README | ✅ |
+| Team member contributions | ✅ |
