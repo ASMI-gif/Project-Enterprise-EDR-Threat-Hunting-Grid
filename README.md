@@ -37,14 +37,43 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 
 
 ---
-## Week-wise Breakdown
 
 ## Week-wise Breakdown
 
-- [Week 1: Infrastructure & Agent Deployment](#week-1-infrastructure--agent-deployment)
-- [Week 2: Threat Hunting & Log Analysis](#week-2-threat-hunting--log-analysis)
-- [Week 3: SIEM Tuning & Alerts](#week-3-siem-tuning--alerts)
-- [Week 4: Reporting & Review](#week-4-reporting--review)
+- 📁 **Week 1: Infrastructure & Agent Deployment**  
+  👉 [Open Week 1](#week-1-infrastructure--agent-deployment)  
+
+- 📁 **Week 2: Detection Rules & Logic Implementation**  
+  👉 [Open Week 2](#week-2-detection-rules--logic-implementation)  
+
+- 📁 **Week 3: Active Response Configuration *(Planned)***  
+  👉 [Open Week 3](#week-3-active-response-configuration-planned)  
+
+- 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping *(Planned)***  
+  👉 [Open Week 4](#week-4-atomic-red-team-simulation--mitre-mapping-planned)  
+
+---
+
+## Week 1: Infrastructure & Agent Deployment
+- Deployed Wazuh Manager (OVA v4.14.1)
+- Installed agents on Ubuntu Server 22.04 and Windows Server 2016
+- Enabled Sysmon for deep telemetry
+- Verified agent heartbeat and log ingestion
+
+**Additional Notes:**
+- Configured log forwarding to SIEM
+- Tested alert generation for sample events
+
+### Screenshots
+![Wazuh Dashboard](assets/wazuh-dashboard.png)
+![Agent Installation](assets/agent-installation.png)
+
+### Commands Used
+```bash
+sudo systemctl start wazuh-manager
+sudo systemctl status wazuh-agent
+
+
 
 ---
 
