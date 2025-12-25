@@ -38,8 +38,7 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
 
 ---
 
-## Week-wise Breakdown
-
+## 📅 Weekly Breakdown
 
 
 - 📁 **Week 1: Infrastructure & Agent Deployment**  
