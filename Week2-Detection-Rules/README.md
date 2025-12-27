@@ -34,6 +34,11 @@ The goal of Week 2 was to implement and validate **detection logic** inside the 
   - Username
   - Process name
   - Event type
+![ossec.conf for myapp FIM](screenshots/conf_myapp.jpeg)
+![Custom Decoders set in /etc/decoders](screenshots/Decoders_my_app.jpeg)
+![Custom rules set in etc/rules](screenshots/localrules_myapp.jpeg)
+![FIM Alert in Wazuh-GUI](screenshots/fim-alert.png)
+
 
 **Purpose:**  
 Improve visibility into logs not natively supported by default Wazuh rules.
