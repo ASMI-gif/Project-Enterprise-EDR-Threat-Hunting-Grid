@@ -24,7 +24,10 @@ The goal of Week 2 was to implement and validate **detection logic** inside the 
 - `/etc/`
 - `/var/www/`
 - `C:\Windows\System32\`
+![ossec.conf for myapp FIM](ossec.conf1)
+![ossec.conf for myapp FIM](ossec.conf2)
 
+![FIM Alert in Wazuh-GUI](app_file_monitoring.jpeg)
 ---
 
 ### 2️⃣ Custom Decoders
@@ -34,10 +37,10 @@ The goal of Week 2 was to implement and validate **detection logic** inside the 
   - Username
   - Process name
   - Event type
-![ossec.conf for myapp FIM](conf_myapp.jpeg)
-![Custom Decoders set in /etc/decoders](screenshots/Decoders_my_app.jpeg)
-![Custom rules set in etc/rules](screenshots/localrules_myapp.jpeg)
-![FIM Alert in Wazuh-GUI](screenshots/fim-alert.png)
+    
+    ![Custom Decoders set in /etc/decoders](Decoders_my_app.jpeg)
+    
+
 
 
 **Purpose:**  
@@ -50,5 +53,7 @@ Improve visibility into logs not natively supported by default Wazuh rules.
   - Suspicious file changes
   - Unauthorized access attempts
   - Privilege escalation indica
+    
+    ![Custom rules set in etc/rules](localrules_myapp.jpeg)
 ---
 ⬅️ **[Back to Weekly Breakdown](../README.md#-Weekly-Breakdown)**
