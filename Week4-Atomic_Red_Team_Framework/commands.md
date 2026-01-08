@@ -108,6 +108,5 @@ EDR detection and response validated
 
 Kill Chain visualization confirmed
 
-Documentation prepared for threat-hunting reference
 ---
 
