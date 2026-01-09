@@ -13,13 +13,17 @@
 
 ### Wazuh Manager Dashboard
 ![Wazuh Dashboard](wazuh-dashboard.png)
-
-### Agent Installation
-![Agent Installation](agent-installation.png)
-
+![Wazuh Dashboard Agents Active](agents_active.png)
+---
+### Agent Installation in Endpoints
+![Agent Status-Windows](wazuh_agent_running_in_windows.png)
+![Agent Status-Linux](wazuh_agent_running_in_linux.png)
+---
+### Sysmon running in Windows
+![Sysmon status](Sysmon_service.png)
+1[Sysmon logs in wazuh GUI](Sysmon_logs_in GUI.png)
 ---
 
-## 🧪 Commands Used
 
+ **[Back to Main Page](../README.md#-Weekly-Breakdown)
 ---
-⬅️ **[Back to Main Page](../README.md#-Weekly-Breakdown)**
