@@ -1,5 +1,4 @@
-# Week 1: Infrastructure & Agent Deployment
-###Overview
+# Week 1: Infrastructure & Agent Deployment Overview
 
 - Deployed Wazuh Manager (OVA v4.14.1)
 - Installed agents on Ubuntu Server 22.04
@@ -8,17 +7,24 @@
 - Verified agent heartbeat and log ingestion
 
 ---
+ ### WAZUH-MANAGER DASHBOARD
 
-### Wazuh Manager Dashboard
-![Wazuh Dashboard](wazuh-dashboard.png)
-![Wazuh Dashboard Agents Active](agents_active.png)
+![Wazuh Dashboard](screenshots/Wazuh_Dashboard_GUI.png)
+![Agents Active](screenshots/agents_active.png)
 
-### Agent Installation in Endpoints
-![Agent Status-Windows](wazuh_agent_running_in_windows.png)
-![Agent Status-Linux](wazuh_agent_running_in_linux.png)
-### Sysmon running in Windows
-![Sysmon status](Sysmon_service.png)
-1[Sysmon logs in wazuh GUI](Sysmon_logs_in GUI.png)
+---
+### Agent status Windows
+
+![Agent Status-Windows](screenshots/wazuh_agent_running_in_windows.png)
+
+### Agent status Linux
+
+![Agent Status-Linux](screenshots/wazuh_agent_running_in_linux.png)
+
+### Sysmon
+![Sysmon Status](screenshots/Sysmon_service.png)
+![Sysmon Logs](screenshots/Sysmon_logs_in_GUI.png)
+
 ---
 
 
