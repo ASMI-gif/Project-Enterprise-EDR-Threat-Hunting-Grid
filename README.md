@@ -48,7 +48,7 @@ The following diagram illustrates the Wazuh SIEM lab deployed inside Oracle Virt
   👉 [Open Week 2](./Week2-Detection-Rules/)
 
 - 📁 **Week 3: Active Response Configuration**  
-  👉 [Open Week 3](./Week3-Active-Response/)
+  👉 [Open Week 3](./Week3_Active_response-IPS/)
 
 - 📁 **Week 4: Atomic Red Team Simulation & MITRE Mapping**  
   👉 [Open Week 4](./Week4-Atomic_Red_Team_Framework/)
