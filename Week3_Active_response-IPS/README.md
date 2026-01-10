@@ -14,7 +14,7 @@ A simulated **SSH brute-force attack** is launched from an attacker machine, and
 | Xubuntu | Wazuh Agent (Target) | 10.0.2.8 |
 | Kali Linux | Attacker | 10.0.2.6 |
 
-Network Mode: **NAT**
+Network Mode: **NAT Network**
 
 ---
 
@@ -114,11 +114,8 @@ hydra -l xubuntu -P /usr/share/wordlists/rockyou.txt ssh://10.0.2.8
 ```
 
 This generates multiple failed SSH login attempts in a short time.
-
-📸 **Screenshot: SSH brute-force attack**
-```markdown
-![Hydra SSH Brute Force](screenshots/hydra-attack.png)
-```
+---
+![SSH brute force attack alert in GUI](screenshots/ssh_bruteforce.png)
 
 ---
 
@@ -158,11 +155,12 @@ This confirms:
 - Firewall rule applied successfully
 - Attacker IP blocked
 - IPS functionality working as expected
+#### SSH Connection blocked
 
-📸 **Screenshot: SSH connection blocked**
-```markdown
-![SSH Blocked](screenshots/ip-blocked.png)
-```
+
+![SSH Blocked](screenshots/Blocked.png)
+![UFW Block](screenshots/UFW_block.png)
+
 
 ---
 
@@ -181,9 +179,11 @@ OR
 ```bash
 sudo iptables -L -n
 ```
-
+---
 This confirms the attacker IP has been added to the firewall block list.
 
+![UFW Block](screenshots/UFW_block.png)
+![iptables prrof](screenshots/iptables_proof.png)
 ---
 
 ## Step 7 – Wazuh Alert Verification
@@ -193,16 +193,27 @@ This confirms the attacker IP has been added to the firewall block list.
 ```bash
 sudo tail -f /var/ossec/logs/alerts/alerts.json
 ```
+---
+Or,
+
+```bash
+sudo cat /var/ossec/logs/active-response.log
+```
+---
 
 Optional filter:
 ```bash
 grep "firewall-drop" /var/ossec/logs/alerts/alerts.json
 ```
+---
+#### Wazuh alert showing active response
 
-📸 **Screenshot: Wazuh alert showing active response**
-```markdown
+
 ![Wazuh Alert](screenshots/wazuh-alert.png)
-```
+![Active response logs](screenshots/active_response_logs.png)
+![Rule fired in GUI](screenshots/GUIRule5763.png)
+![GUI proof](screenshots/rule_fired2.png)
+![GuI Proof](screenshots/rule_firedGUI.png)
 
 ---
 
@@ -223,11 +234,4 @@ The system was able to detect a real-world attack pattern and automatically prev
 This capability is critical in SOC environments where rapid response is required to minimize attack impact.
 
 ---
-
-## Week 3 Status
-
-✅ **Completed Successfully**
-
-
-
 
