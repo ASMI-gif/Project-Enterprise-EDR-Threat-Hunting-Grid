@@ -39,7 +39,7 @@ sudo systemctl restart wazuh-agent
 #### Gate Check – Manual File Modification
 ```bash
 
-sudo nano /opt/myapp/app_error.log
+sudo nano /opt/myapp/logs/app_error.log
 
 ```
 ---
